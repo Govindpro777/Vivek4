@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const LiveChart = () => {
   return (
     <section
-      id="chart"
+      id="warzone"
       className="relative py-14 sm:py-16 md:py-20 overflow-hidden"
     >
       <div className="container mx-auto px-4 relative z-10">

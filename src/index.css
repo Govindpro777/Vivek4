@@ -198,3 +198,41 @@
     }
   }
 }
+
+@layer base {
+  * {
+    cursor: url('/cursor_1767809377-0-1.cur') 16 16, url('/src/assets/cursor_1767809377-0-1.cur') 16 16, auto !important;
+  }
+  
+  button,
+  [role="button"],
+  a,
+  input:focus,
+  input:hover,
+  button:hover,
+  button:focus,
+  a:hover,
+  a:focus {
+    cursor: url('/cursor_1767809377-0-1.cur') 16 16, url('/src/assets/cursor_1767809377-0-1.cur') 16 16, pointer !important;
+  }
+  
+  img,
+  video {
+    cursor: url('/cursor_1767809377-0-1.cur') 16 16, url('/src/assets/cursor_1767809377-0-1.cur') 16 16, auto !important;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}

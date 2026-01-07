@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import gallery1 from "@/assets/gallery1.jpg";
-import gallery2 from "@/assets/gallery1.jpg";
-import gallery3 from "@/assets/gallery1.jpg";
-import gallery4 from "@/assets/gallery1.jpg";
-import gallery5 from "@/assets/gallery1.jpg";
-import gallery6 from "@/assets/gallery1.jpg";
+import gallery1 from "@/assets/gallery1.jpeg";
+import gallery2 from "@/assets/gallery2.jpeg";
+import gallery3 from "@/assets/gallery3.jpeg";
+import gallery4 from "@/assets/gallery4.jpeg";
+import gallery5 from "@/assets/gallery5.jpeg";
+import gallery6 from "@/assets/gallery6.jpeg";
 
 const galleryImages = [
   { src: gallery1 , alt: "Pumpkin King", title: "THE KING" },

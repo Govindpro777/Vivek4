@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/hero-right.png";
+import logo from "@/assets/hero-right.jpg";
 
 const navLinks = [
   { name: "GALLERY", href: "#gallery" },
