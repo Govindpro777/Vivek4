@@ -405,7 +405,7 @@ const HeroSection = () => {
           </motion.div>
         </div> */}
 
-        <div className="mt-16 sm:mt-28">
+        <div className="mt-32" id="sword">
   <motion.div
     className="flex justify-center items-center py-4"
     initial={{ opacity: 1, x: 0 }}
@@ -415,7 +415,7 @@ const HeroSection = () => {
     <img
       src={Sword}
       alt="Sword"
-      id="sword"
+      
       className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
     />
   </motion.div>
