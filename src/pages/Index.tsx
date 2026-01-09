@@ -14,6 +14,7 @@ import bgMobile from "@/assets/bgVideo.mp4";
 import Audio from "@/assets/song.mp3";
 import Tokenomics from "@/components/Tokenomics";
 import TokenDistribution from "@/components/TokenDistibuton";
+import PreSale from "@/components/PreSale"
 
 const Index = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -108,6 +109,7 @@ const Index = () => {
         {/* <WhyLifeMatters /> */}
         {/* <WhitePaper /> */}
         <HowToBuy />
+        <PreSale />
         <Tokenomics />
         <TokenDistribution />
         <Roadmap />

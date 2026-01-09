@@ -40,7 +40,7 @@ const LiveChart = () => {
             <iframe
               src="https://dexscreener.com/bsc/0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae?embed=1&theme=dark&trades=0&info=0"
               className="w-full h-full border-0"
-              title="BNB Chart - DEX Screener"
+              title="SOL Chart - DEX Screener"
               allow="clipboard-write"
             />
           </div>

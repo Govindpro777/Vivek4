@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const flokipumpTokenData = [
   {

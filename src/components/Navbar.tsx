@@ -9,7 +9,10 @@ const navLinks = [
   // { name: "WHITE PAPER", href: "#whitepaper" },
   { name: "HOW TO BUY", href: "#how-to-buy" },
   { name: "ROADMAP", href: "#roadmap" },
+  { name: "TOKENOMICS", href: "#tokenomics" },
+  { name: "TOKEN DISTRIBUTION", href: "#token-distribution" },
   { name: "WARZONE", href: "#warzone" },
+  { name: "ANNOUNCEMENT", href: "#announcement" },
 ];
 
 const Navbar = () => {

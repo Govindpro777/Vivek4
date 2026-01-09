@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { Wallet, Coins, ArrowRightLeft } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
-import bgVideo from "@/assets/bgVideo3.mp4";
 
 const steps = [
   {
@@ -12,30 +10,18 @@ const steps = [
   {
     icon: Coins,
     title: "2. GET SOME BNB",
-    description: "You'll need some BNB in your wallet to swap for LIFE Coin. Get it from a centralized exchange or a friend who owes you one.",
+    description: "You'll need some BNB in your wallet to swap for FLOKI Coin. Get it from a centralized exchange or a friend who owes you one.",
   },
   {
     icon: ArrowRightLeft,
-    title: "3. SWAP FOR LIFE COIN",
-    description: "Go to PancakeSwap, paste the LIFE Coin contract address, and swap your BNB. Welcome to the mainframe.",
+    title: "3. SWAP FOR FLOKI Coin",
+    description: "Go to PancakeSwap, paste the FLOKI Coin contract address, and swap your BNB. Welcome to the mainframe.",
   },
 ];
 
 const HowToBuy = () => {
   return (
     <section id="how-to-buy" className="py-20 relative overflow-hidden">
-         {/* <div className="absolute inset-0 z-0">
-        <video
-          src={bgVideo}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-background/60" />
-      </div> */}
-     
       
       <div className="container mx-auto px-4 relative z-10">
         <motion.h2
@@ -45,7 +31,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          HOW DO I BUY LIFE COIN
+          HOW DO I BUY FLOKI COIN
         </motion.h2>
 
         <motion.p
@@ -55,7 +41,7 @@ const HowToBuy = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Get started with LIFE in three simple steps
+          Get started with FLOKI Coin in three simple steps
         </motion.p>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -113,7 +99,7 @@ const HowToBuy = () => {
             whileHover={{ scale: 1.05, boxShadow: "0 0 40px hsl(200 80% 70% / 0.8)" }}
             whileTap={{ scale: 0.95 }}
           >
-            BUY LIFE NOW
+            BUY FLOKI NOW
           </motion.a>
         </motion.div>
       </div>
