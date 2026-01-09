@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const tokenData = [
   { name: "Pump.Fun Tokens", percentage: 77, color: "#4A9BD9", description: "Available during the fair launch" },
@@ -15,16 +14,6 @@ const tokenData = [
 const Tokenomics = () => {
   return (
     <section id="tokenomics" className="relative py-20 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src={heroBg}
-          alt="Background"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-background/80" />
-      </div>
-
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
           className="text-center mb-12"
