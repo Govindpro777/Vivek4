@@ -405,21 +405,22 @@ const HeroSection = () => {
           </motion.div>
         </div> */}
 
-        <div className="mt-32" id="sword">
+<div className="mt-32" id="sword">
   <motion.div
     className="flex justify-center items-center py-4"
-    initial={{ opacity: 1, x: 0 }}
+    initial={{ opacity: 0, x: "-100%" }}
     whileInView={{ opacity: 1, x: 0 }}
     viewport={{ once: true }}
+    transition={{ duration: 1.2, ease: "easeOut" }}
   >
     <img
       src={Sword}
       alt="Sword"
-      
       className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
     />
   </motion.div>
 </div>
+
 
       </div>
     </section>
