@@ -51,7 +51,7 @@ const PreSale = () => {
           >
             <Calendar className="w-12 h-12 text-secondary" />
             <span className="font-display text-5xl md:text-7xl text-secondary font-bold tracking-tight">
-              13 JAN
+              16 JAN
             </span>
           </motion.div>
 
