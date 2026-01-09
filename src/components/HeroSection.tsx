@@ -241,7 +241,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             >
-              Floki's Fair Launch - No VCs, Pure Community HODL. Born on BNB lightning-fast network, we're building a meme-powered rocket with locked liquidity, real utility, and moonshot ambitions. Join the pack, HODL tight, and let's ride this wild pump.fun adventure to the stars together!
+              Floki's Fair Launch - No VCs, Pure Community HODL. Born on SOL lightning-fast network, we're building a meme-powered rocket with locked liquidity, real utility, and moonshot ambitions. Join the pack, HODL tight, and let's ride this wild pump.fun adventure to the stars together!
             </motion.p>
 
             <motion.div
@@ -384,7 +384,7 @@ const HeroSection = () => {
         </motion.div>
 
         {/* Sword */}
-        <div className="mt-28">
+        {/* <div className="mt-28">
           <motion.div
             className="flex justify-center items-center py-4"
             initial={{ opacity: 0, x: -500 }}
@@ -403,7 +403,24 @@ const HeroSection = () => {
               className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
             />
           </motion.div>
-        </div>
+        </div> */}
+
+        <div className="mt-16 sm:mt-28">
+  <motion.div
+    className="flex justify-center items-center py-4"
+    initial={{ opacity: 1, x: 0 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: true }}
+  >
+    <img
+      src={Sword}
+      alt="Sword"
+      id="sword"
+      className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
+    />
+  </motion.div>
+</div>
+
       </div>
     </section>
   );

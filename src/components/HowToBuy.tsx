@@ -9,13 +9,13 @@ const steps = [
   },
   {
     icon: Coins,
-    title: "2. GET SOME BNB",
-    description: "You'll need some BNB in your wallet to swap for FLOKI Coin. Get it from a centralized exchange or a friend who owes you one.",
+    title: "2. GET SOME SOL",
+    description: "You'll need some SOL in your wallet to swap for FLOKI Coin. Get it from a centralized exchange or a friend who owes you one.",
   },
   {
     icon: ArrowRightLeft,
     title: "3. SWAP FOR FLOKI Coin",
-    description: "Go to PancakeSwap, paste the FLOKI Coin contract address, and swap your BNB. Welcome to the mainframe.",
+    description: "Go to PancakeSwap, paste the FLOKI Coin contract address, and swap your SOL. Welcome to the mainframe.",
   },
 ];
 
