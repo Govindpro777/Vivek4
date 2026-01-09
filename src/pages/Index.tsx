@@ -15,6 +15,7 @@ import Audio from "@/assets/song.mp3";
 import Tokenomics from "@/components/Tokenomics";
 import TokenDistribution from "@/components/TokenDistibuton";
 import PreSale from "@/components/PreSale"
+import PreSaleBenefits from "@/components/PreSaleBenifits";
 
 const Index = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -110,6 +111,7 @@ const Index = () => {
         {/* <WhitePaper /> */}
         <HowToBuy />
         <PreSale />
+        <PreSaleBenefits />
         <Tokenomics />
         <TokenDistribution />
         <Roadmap />
