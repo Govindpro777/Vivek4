@@ -241,7 +241,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             >
-              Floki's Fair Launch - No VCs, Pure Community HODL. Born on SOL lightning-fast network, we're building a meme-powered rocket with locked liquidity, real utility, and moonshot ambitions. Join the pack, HODL tight, and let's ride this wild pump.fun adventure to the stars together!
+              Floki's Fair Launch - No VCs, Pure Community HODL. Born on BNB lightning-fast network, we're building a meme-powered rocket with locked liquidity, real utility, and moonshot ambitions. Join the pack, HODL tight, and let's ride this wild pump.fun adventure to the stars together!
             </motion.p>
 
             <motion.div

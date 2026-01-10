@@ -43,7 +43,7 @@ const LiveChart = () => {
             <iframe
               src="https://dexscreener.com/solana/AgC7En9s897T4us149giMh8GRtfTGsKK3YiexoCQ66xs?embed=1&loadChartSettings=0&info=0&chartLeftToolbar=0&chartDefaultOnMobile=1&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
               className="absolute top-0 left-0 w-full h-full border-0"
-              title="Floki SOL Chart - DEX Screener"
+              title="Floki BNB Chart - DEX Screener"
               allow="clipboard-write"
             />
           </div>

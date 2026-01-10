@@ -9,8 +9,8 @@ const steps = [
   },
   {
     icon: Coins,
-    title: "2. GET SOME SOL",
-    description: "You'll need some SOL in your wallet to swap for FLOKI Coin. Get it from a centralized exchange or a friend who owes you one.",
+    title: "2. GET SOME BNB",
+    description: "You'll need some BNB in your wallet to swap for FLOKI Coin. Get it from a centralized exchange or a friend who owes you one.",
   },
   {
     icon: ArrowRightLeft,
